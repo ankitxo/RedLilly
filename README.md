@@ -181,22 +181,7 @@ As a **Flutter Developer**, I contributed to the following areas of the project:
 
 ## 📸 Screenshots
 
-> Screenshots are not included due to company confidentiality. You may replace this section with your own mockups or UI recreations if appropriate.
-
----
-
-## 🛠️ Packages Used
-
-* flutter_bloc
-* firebase_auth
-* cloud_firestore
-* firebase_messaging
-* google_sign_in
-* sign_in_with_apple
-* flutter_facebook_auth
-* go_router
-* get_it
-* equatable
+> Screenshots are not included due to company confidentiality. 
 
 ---
 
