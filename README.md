@@ -1,50 +1,41 @@
 # 🌸 RedLilly
 
-> **⚠️ Disclaimer**
+> **⚠️ Project Disclaimer**
 >
-> RedLilly was a production mobile application that I contributed to during my tenure at a previous organization.
+> **RedLilly** was developed during my tenure at **Forwardcode Techstudio**.
 >
-> Due to a **Non-Disclosure Agreement (NDA)** and intellectual property obligations, I am unable to share the original source code, assets, or proprietary business logic. This repository is intended to showcase the application's architecture, technologies, features, and my contributions as a Flutter Developer.
+> Due to a **Non-Disclosure Agreement (NDA)** and intellectual property obligations, I am unable to share the original source code, project assets, or proprietary business logic. This repository is intended solely to showcase the application's architecture, technologies, features, and my contributions as a Flutter Developer.
 
 ---
 
 ## 📖 About the Project
 
-RedLilly is a menstrual health and period tracking application designed to help women monitor their menstrual cycles, predict upcoming periods, record cycle history, and gain valuable insights into their reproductive health.
+RedLilly is a **menstrual health and period tracking application** built with **Flutter** and **Firebase**. The application helps women monitor their menstrual cycles, predict upcoming periods, record cycle information, and gain meaningful insights into their reproductive health.
 
-The application analyzes cycle patterns and provides health-related recommendations, encouraging users to consult a healthcare professional when irregular or potentially concerning trends are detected.
-
-Designed with a scalable architecture and modern Flutter development practices, the application delivers a smooth, secure, and reliable experience across both Android and iOS platforms.
+The app analyzes users' cycle history to identify irregular patterns and provides health-related recommendations, encouraging users to consult a healthcare professional when unusual or potentially concerning cycle trends are detected.
 
 ---
 
 ## 📱 Platforms
 
-- ✅ Android
-- ✅ iOS
+* ✅ Android
+* ✅ iOS
 
 ---
 
 ## 🚀 Tech Stack
 
-### Framework
-
-- Flutter
-- Dart
-
-### Backend
-
-- Firebase Authentication
-- Cloud Firestore
-- Firebase Cloud Messaging (FCM)
-
-### Architecture & Libraries
-
-- Flutter BLoC (State Management)
-- GoRouter (Navigation)
-- GetIt (Dependency Injection)
-- Equatable (Value Equality)
-- Feature-Based Architecture
+| Technology               | Usage                             |
+| ------------------------ | --------------------------------- |
+| Flutter                  | Cross-platform mobile development |
+| Firebase Authentication  | User Authentication               |
+| Cloud Firestore          | Data Storage                      |
+| Firebase Cloud Messaging | Push Notifications                |
+| Flutter BLoC             | State Management                  |
+| GoRouter                 | Navigation & Routing              |
+| GetIt                    | Dependency Injection              |
+| Equatable                | State Equality                    |
+| Dart                     | Programming Language              |
 
 ---
 
@@ -52,77 +43,73 @@ Designed with a scalable architecture and modern Flutter development practices, 
 
 ### 🔐 Authentication
 
-- Email & Password Authentication
-- Google Sign-In
-- Apple Sign-In
-- Facebook Login
-- Secure user session management
+* Email & Password Authentication
+* Google Sign-In
+* Apple Sign-In
+* Facebook Login
+* Secure User Session Management
 
 ---
 
 ### 📊 Dashboard
 
-- Current Active Cycle
-- Last 5 Cycle History
-- Cycle Analytics
-- Health Insights
-- Quick Overview
+* Current Active Cycle
+* Last 5 Cycle History
+* Cycle Analytics
+* Health Insights
+* Personalized Dashboard
 
 ---
 
 ### 📝 Cycle Tracking
 
-- Add New Period Entry
-- Update Existing Entries
-- View Cycle History
-- Track Menstrual Patterns
-- Record Cycle Information
+* Add New Period Entry
+* Update Existing Entries
+* Track Menstrual Cycles
+* View Previous Cycle History
+* Monitor Cycle Patterns
 
 ---
 
 ### 📄 Reports
 
-- Download Period Reports
-- Download Cycle History Reports
-- Export User Records
+* Download Period Reports
+* Download Cycle History Reports
+* View Historical Records
 
 ---
 
 ### 🔔 Notifications
 
-- Push Notifications
-- Period Reminder Notifications
-- Upcoming Cycle Alerts
-- Personalized Reminders
+* Push Notifications
+* Period Reminders
+* Cycle Alerts
+* Health Notifications
 
 ---
 
-### ❤️ Health Insights
+### ❤️ Health Monitoring
 
-- Monitor menstrual health trends
-- Detect irregular cycle patterns
-- Predict upcoming cycles
-- Encourage medical consultation when abnormal patterns are detected
+* Predict upcoming menstrual cycles
+* Detect irregular cycle patterns
+* Provide health insights
+* Recommend consulting a healthcare professional when abnormal trends are detected
 
 ---
 
 ## 🏗️ Project Architecture
 
-The application follows a **Feature-Based Architecture**, making the codebase modular, scalable, reusable, and easy to maintain.
+The application follows a **Feature-Based Architecture**, making the project modular, scalable, maintainable, and easy to extend.
 
-```text
+```
 lib/
 │
 ├── core/
 │   ├── constants/
 │   ├── services/
+│   ├── utilities/
 │   ├── theme/
-│   ├── utils/
 │   └── widgets/
-│
-├── dependency_injection/
-│
-├── routes/
 │
 ├── features/
 │   ├── authentication/
@@ -133,136 +120,111 @@ lib/
 │   ├── profile/
 │   └── settings/
 │
+├── routes/
+│
+├── dependency_injection/
+│
 └── main.dart
 ```
 
 ---
 
-## 🧩 Architecture Highlights
+## 🧩 Architecture & Design Principles
 
-- 📦 Feature-Based Folder Structure
-- 🔄 Flutter BLoC for predictable state management
-- 🧭 GoRouter for declarative navigation
-- 🔌 GetIt for Dependency Injection
-- ⚖️ Equatable for efficient object comparison
-- 🔥 Firebase-powered backend services
-- ♻️ Reusable and maintainable components
-- 📱 Cross-platform development with a single codebase
+The project was developed using modern Flutter development practices:
+
+* Feature-Based Project Structure
+* Flutter BLoC for predictable state management
+* GoRouter for declarative navigation
+* GetIt for dependency injection
+* Equatable for optimized state comparison
+* Modular and reusable components
+* Clean separation between Presentation, Business Logic, and Data layers
+* Scalable and maintainable codebase
 
 ---
 
 ## 👨‍💻 My Contributions
 
-As a **Flutter Developer**, I contributed to:
+As a **Flutter Developer**, I contributed to the following areas of the project:
 
-- Developed production-ready features for Android & iOS
-- Implemented Firebase Authentication using:
-  - Email & Password
-  - Google Sign-In
-  - Apple Sign-In
-  - Facebook Login
-- Built the Dashboard with cycle analytics and health insights
-- Developed period tracking and cycle management features
-- Implemented add/update period entry workflows
-- Integrated downloadable reports for period and cycle history
-- Integrated Firebase Cloud Messaging (FCM)
-- Developed push notification and reminder functionality
-- Designed and maintained a scalable Feature-Based Architecture
-- Managed application state using Flutter BLoC
-- Configured Dependency Injection using GetIt
-- Implemented navigation using GoRouter
-- Worked closely with UI/UX designers, QA engineers, and backend developers to deliver production-ready features
+* Developed cross-platform features for Android and iOS
+* Implemented multi-provider authentication using Firebase
+* Built Dashboard and Analytics screens
+* Developed Period Tracking and Cycle Management modules
+* Created Add & Update Entry workflows
+* Implemented downloadable reports
+* Integrated Firebase Push Notifications and Reminder system
+* Designed and maintained Feature-Based Architecture
+* Managed application state using Flutter BLoC
+* Configured dependency injection with GetIt
+* Implemented app navigation using GoRouter
+* Optimized application performance and code maintainability
+* Collaborated with UI/UX designers, QA engineers, and backend developers to deliver production-ready features
 
 ---
 
-## 📈 Technical Highlights
+## 📈 Project Highlights
 
-- Production-ready Flutter application
-- Cross-platform (Android & iOS)
-- Firebase Authentication
-- Firebase Cloud Firestore
-- Push Notifications
-- Modular Architecture
-- Clean State Management
-- Scalable Navigation
-- Downloadable Reports
-- Health Analytics
-- Maintainable Codebase
+* Production-ready Flutter application
+* Cross-platform support (Android & iOS)
+* Secure multi-provider authentication
+* Firebase-powered backend
+* Modern Feature-Based Architecture
+* Scalable BLoC state management
+* Downloadable reports
+* Push notifications and reminders
+* Health insights and cycle analytics
+* Clean, maintainable, and reusable codebase
 
 ---
 
 ## 📸 Screenshots
 
-> Screenshots cannot be shared publicly due to NDA restrictions.
-
-<!--
-You can replace this section with screenshots if permitted.
-
-| Login | Dashboard | Cycle Tracking | Reports |
-|-------|-----------|---------------|----------|
-| Image | Image | Image | Image |
--->
+> Screenshots are not included due to company confidentiality. You may replace this section with your own mockups or UI recreations if appropriate.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Packages Used
 
-| Category | Technologies |
-|----------|--------------|
-| Framework | Flutter |
-| Language | Dart |
-| Backend | Firebase |
-| Database | Cloud Firestore |
-| Authentication | Firebase Auth |
-| Notifications | Firebase Cloud Messaging |
-| State Management | Flutter BLoC |
-| Navigation | GoRouter |
-| Dependency Injection | GetIt |
-| Utilities | Equatable |
+* flutter_bloc
+* firebase_auth
+* cloud_firestore
+* firebase_messaging
+* google_sign_in
+* sign_in_with_apple
+* flutter_facebook_auth
+* go_router
+* get_it
+* equatable
 
 ---
 
-## 🎯 Key Learnings
+## 🎯 What I Learned
 
-During the development of RedLilly, I gained experience in:
+Working on RedLilly strengthened my experience in:
 
-- Building large-scale Flutter applications
-- Designing scalable Feature-Based architectures
-- Firebase Authentication integration
-- State management using Flutter BLoC
-- Dependency Injection with GetIt
-- Navigation using GoRouter
-- Push notification integration
-- Report generation
-- Writing maintainable and reusable code
-- Collaborating within an Agile development team
+* Building production-scale Flutter applications
+* Feature-Based Architecture
+* State Management with Flutter BLoC
+* Dependency Injection
+* Firebase Integration
+* Authentication using multiple providers
+* Push Notifications
+* Mobile application architecture
+* Performance optimization
+* Writing scalable and maintainable Flutter code
 
 ---
 
 ## 📌 Project Status
 
-✅ Successfully delivered as a production application for Android and iOS during my tenure at a previous organization.
+✅ Successfully developed and delivered as a production application for Android and iOS during my tenure at **Forwardcode Techstudio**.
 
 ---
 
 ## 📄 License
 
-This repository does **not** contain the original source code.
+This repository does **not** contain the original project source code.
 
-It exists solely to demonstrate:
-
-- Project architecture
-- Technologies used
-- Features implemented
-- Development experience
-- My contributions as a Flutter Developer
-
-The original application's source code, assets, and business logic remain the intellectual property of my previous employer and cannot be distributed due to a **Non-Disclosure Agreement (NDA)**.
-
----
-
-## 🤝 Connect With Me
-
-If you'd like to discuss Flutter, mobile development, or opportunities to collaborate, feel free to connect with me.
-
-⭐ If you found this project description helpful, consider giving the repository a star!
+It is intended solely to demonstrate my technical experience, software architecture knowledge, and contributions to a production Flutter application while respecting the intellectual property and confidentiality obligations of my previous employer.
